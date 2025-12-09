@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="Visual Effects & Web Design Portfolio">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="container">
+                <a href="#" class="logo">PORTFOLIO.</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#work" class="nav-link">Work</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="container">
+                    <h1 class="hero-title">
+                        <span class="reveal-text">Creative</span><br>
+                        <span class="reveal-text highlight">Developer</span>
+                    </h1>
+                    <p class="hero-subtitle">Building digital experiences that matter.</p>
+                </div>
+            </section>
+
+            <section id="work" class="section">
+                <div class="container">
+                    <h2 class="section-title">Selected Work</h2>
+                    <div class="project-grid">
+                        <!-- Project 1 -->
+                        <article class="project-card">
+                            <div class="project-image" style="background: linear-gradient(45deg, #2b2b2b, #1a1a1a);">
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">Neon Dreams</h3>
+                                <p class="project-desc">A futuristic e-commerce platform with 3D product previews.</p>
+                                <div class="project-tags">
+                                    <span class="tag">React</span>
+                                    <span class="tag">Three.js</span>
+                                    <span class="tag">GSAP</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project 2 -->
+                        <article class="project-card">
+                            <div class="project-image" style="background: linear-gradient(45deg, #1a1a1a, #2b2b2b);">
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">Zen Space</h3>
+                                <p class="project-desc">Meditation app dashboard with real-time data visualization.</p>
+                                <div class="project-tags">
+                                    <span class="tag">Vue.js</span>
+                                    <span class="tag">D3.js</span>
+                                    <span class="tag">Tailwind</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project 3 -->
+                        <article class="project-card">
+                            <div class="project-image" style="background: linear-gradient(45deg, #2b2b2b, #1a1a1a);">
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">Portfolio v1</h3>
+                                <p class="project-desc">Minimalist portfolio designed for a photographer.</p>
+                                <div class="project-tags">
+                                    <span class="tag">HTML/CSS</span>
+                                    <span class="tag">Vanilla JS</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section">
+                <div class="container">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>I am a creative developer with a passion for building immersive digital experiences. With
+                                a background in visual arts and computer science, I bridge the gap between design and
+                                technology.</p>
+                            <p>My goal is to create websites that are not only functional but also visually stunning and
+                                memorable.</p>
+                        </div>
+                        <div class="skills-container">
+                            <h3 class="skills-title">Tech Stack</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">HTML5</div>
+                                <div class="skill-item">CSS3</div>
+                                <div class="skill-item">JavaScript (ES6+)</div>
+                                <div class="skill-item">React</div>
+                                <div class="skill-item">Three.js</div>
+                                <div class="skill-item">Node.js</div>
+                                <div class="skill-item">Git</div>
+                                <div class="skill-item">Figma</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="container">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="contact-content">
+                        <p class="contact-text">Interested in working together? Let's talk.</p>
+                        <a href="mailto:hello@example.com" class="contact-btn">Say Hello</a>
+                        <div class="social-links">
+                            <a href="#" class="social-link">GitHub</a>
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
